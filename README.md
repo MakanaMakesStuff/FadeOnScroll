@@ -4,8 +4,8 @@ The concept is that we want to animate a particular element whenever it becomes 
 
 ```jsx
 <OnScroll animation="fadeInLeft" id="sectionOne" persist={false}>
-    <section className={styles.section} id="sectionOne">
-    	<h1>Test Content</h1>
+    	<section id="sectionOne">
+    		<h1>Test Content</h1>
 	</section>
 </OnScroll>
 ```
